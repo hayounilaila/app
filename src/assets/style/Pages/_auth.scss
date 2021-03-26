@@ -1,0 +1,35 @@
+.auth {
+  @include flex-column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("../../images/background.jpg");
+  &__card {
+    @media (min-width: 980px) {
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 25px;
+      padding: 30px;
+      width: 900px;
+      height: 40vh;
+      &--left {
+        flex-direction: row-reverse;
+      }
+      &__nav {
+        @include flex-column;
+      }
+    }
+    @media (max-width: 980px) {
+      &__nav {
+        display: none;
+      }
+    }
+
+    &__nav__title {
+      color: white;
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Welcome": "bonjour",
+  "create-account": "Créer votre compte",
+  "full-name": "Nom complet",
+  "email": "Email",
+  "required-error-message": "Ce champ est obligatoire",
+  "min-length-name-error": "Le nom doit avoir au minimum 4 caractére",
+  "invalid-email": "Address email invalide",
+  "password": "Mot de passe",
+  "invalid-password": "Mot de passe doit avoir au minimum 6 caractére",
+  "confirm-password": "Confirmer le mot de passe",
+  "password-incorrect": "Mot de passe incorrecte",
+  "upload-photo": "importer photo",
+  "submit": "Envoyer",
+  "login": "Se connecter à Twitter",
+  "login-link": "Vous avez déja un compte ? Connectez-vous",
+  "register-link": "Inscrivez-vous",
+  "forgot-password": "Mot de passe oubliée?",
+  "forgot-pass": "Rechercher votre compte Twitter"
+}

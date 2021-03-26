@@ -1,0 +1,10 @@
+@keyframes left-to-right {
+  0% {
+    transform: translateX(100%);
+  }
+}
+@keyframes right-to-left {
+  0% {
+    transform: translateX(-100%);
+  }
+}

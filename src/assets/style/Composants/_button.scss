@@ -1,0 +1,20 @@
+.btn {
+  background-color: $color-primary;
+  color: white;
+  border: none;
+  height: 35px;
+  min-width: 150px;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.8s;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+    @include box-shadow;
+  }
+  &:hover {
+    background-color: white;
+    border: 1px solid $color-primary;
+    color: $color-primary;
+  }
+}

@@ -1,0 +1,38 @@
+.form-container {
+  padding: 20px;
+  @include flex-column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 50vh;
+  &__form {
+    @include flex-column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  @media (max-height: 760px) {
+    height: 70vh;
+  }
+  @media (min-width: 980px) {
+    width: 350px;
+    &--left {
+      animation: left-to-right 1.2s;
+    }
+    &--right {
+      animation: right-to-left 1.2s;
+    }
+    &__link {
+      display: none;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 980px) {
+    width: 290px;
+    &__link {
+      display: block;
+    }
+  }
+  @media (max-width: 360px) {
+    width: 200px;
+    font-size: 0.8em;
+  }
+}
